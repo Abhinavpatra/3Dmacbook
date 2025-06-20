@@ -1,6 +1,5 @@
 import { useGLTF, useScroll, useTexture } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
-import React from 'react'
 import * as THREE from "three"
 
 export default function MacContainer() {
