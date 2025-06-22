@@ -6,7 +6,6 @@ export default function Loader() {
   const [displayed, setDisplayed] = useState(0);
   const raf = useRef(0);
 
-  // Animate displayed progress smoothly towards actual progress
   useEffect(() => {
     const animate = () => {
       setDisplayed((prev) => {
